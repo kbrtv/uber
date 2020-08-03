@@ -1,0 +1,767 @@
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: #1eacc7
+*
+	font-family: 'Roboto'
+
+header
+	position: relative
+	nav
+		height: 50px
+		background-color: #212121
+		padding-top: 10px
+		.menu
+			display: flex
+			justify-content: space-between
+			// align-items: center
+			list-style-type: none
+			&_item
+				padding-right: 38px
+				border-right: 2px dotted black
+				&_none
+					border-right: none
+				a
+					color: #ffffff
+					font-size: 15px
+					font-weight: 300
+					&:hover
+						text-decoration: none
+						color: #1eacc7
+		.hamburger
+			display: none
+	.sub-header
+		height: 84px
+		background-color: rgba(0, 0, 0, 0.6)
+		position: absolute
+		width: 100%
+		&_logo
+			margin-top: 20px
+		&_text
+			margin-bottom: 0
+			opacity: 0.5
+			color: #ffffff
+			font-size: 13px
+			font-weight: 400
+		&_number
+			margin-top: 20px
+			text-align: right
+			p
+				margin-bottom: 0
+				color: #ffffff
+				font-size: 12px
+				font-weight: 300
+				line-height: 20px
+				span
+					color: #ffffff
+					font-size: 22px
+					font-weight: 400
+					text-transform: uppercase
+		&_btn
+			margin-top: 19px
+			width: 172px
+			height: 46px
+			border: 3px solid rgba(0, 0, 0, 0.07)
+			background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+			text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+			text-align: center
+			color: #ffffff
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+			border-radius: 4px
+			+btn_hover
+.invite
+	height: 750px
+	padding: 140px 0 135px 0
+	background: url('../img/main-bg.png') center center/cover no-repeat
+	h1
+		margin-bottom: 0
+		color: #ffffff
+		font-size: 60px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+	&_header
+		font-size: 36px
+		color: #ffffff
+		font-weight: 400
+		text-transform: uppercase
+		text-align: center
+		margin-top: -10px
+	&_text
+		margin-bottom: 0
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		line-height: 24px
+		text-align: center
+		margin-top: 10px
+	&_btn
+		display: block
+		margin: 0 auto
+		margin-top: 109px
+		width: 259px
+		height: 63px
+		border: 3px solid rgba(0, 0, 0, 0.07)
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		text-align: center
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		text-transform: uppercase
+		border-radius: 4px
+		+btn_hover
+.features
+	padding: 70px 0
+	&_btn
+		width: 112px
+		height: 24px
+		background-color: #000000
+		color: #ffffff
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		display: block
+		margin: 0 auto
+	&_header
+		color: #222222
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		margin-top: 34px
+		margin-bottom: 0
+	p
+		margin-bottom: 0
+		display: inline-block
+		vertical-align: middle
+		width: 342px
+		// height: 142px
+		margin-top: 40px
+		margin-left: 26px
+		color: #202020
+		font-size: 15px
+		line-height: 21px
+		font-weight: 300
+		span
+			font-weight: 400
+			font-size: 17px
+			color: #1eacc7
+	img
+		margin-top: 30px
+
+		// vertical-align: middle
+.mobile
+	height: 864px
+	background: url('../img/second_bg.png') center center/cover no-repeat
+	padding: 48px 0 80px 0
+	.row
+		margin-top: 32px
+	&_btn
+		width: 112px
+		height: 24px
+		background-color: #000000
+		color: #ffffff
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		display: block
+		margin: 0 auto
+	&_header
+		text-align: center
+		color: #222222
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		margin-top: 28px
+		
+	&_text
+		color: #222222
+		font-size: 17px
+		font-weight: 400
+		line-height: 21px
+		text-align: center
+		margin-top: 7px
+	&_block
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		position: relative
+		&_1
+			background: url('../img/mobile/1.jpg') center center/cover no-repeat
+		&_2
+			background: url('../img/mobile/2.jpg') center center/cover no-repeat
+		&_3
+			background: url('../img/mobile/3.jpg') center center/cover no-repeat
+		&_4
+			background: url('../img/mobile/4.jpg') center center/cover no-repeat
+		&_5
+			background: url('../img/mobile/5.jpg') center center/cover no-repeat
+		&_6
+			background: url('../img/mobile/6.jpg') center center/cover no-repeat
+		&_text
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-transform: uppercase
+			text-align: center
+		&_plus
+			margin: 0 auto
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 26px
+			height: 26px
+			background-color: #000000
+			border-radius:  100%
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			cursor: pointer
+			&:before
+				content: ''
+				display: block
+				width: 14px
+				height: 2px
+				background-color: #1eacc7
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				width: 2px
+				height: 14px
+				background-color: #1eacc7
+
+
+
+.choice
+	height: 836px
+	background: url('../img/car_bg.jpg') center center/cover no-repeat
+	padding: 57px 0 138px 0
+	&_btn
+		display: block
+		margin: 0 auto
+		width: 112px
+		height: 24px
+		background-color: #ffffff
+		color: #070716
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		+btn_hover
+	&_header
+		text-align: center
+		margin-top: 26px
+		color: #ffffff
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		margin-bottom: 0
+	&_text
+		text-align: center
+		color: #ffffff
+		font-size: 17px
+		font-weight: 400
+	&_par
+		text-align: center
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px	
+		margin-top: 480px	
+
+.condition
+	// height: 920px
+	padding: 68px 0 84px 0
+	&_btn
+		width: 112px
+		height: 24px
+		background-color: #000000
+		color: #ffffff
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		display: block
+		margin: 0 auto
+	&_text
+		text-align: center
+		color: #222222
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+		margin-top: 28px
+		// line-height: 0
+	&_block
+		margin: 33px 0 22px 0
+		&_nmb
+			margin-bottom: 0
+		&_list
+			margin-bottom: 0
+			list-style-type: none
+			padding-left: 50px
+			margin-top: 10px
+			li
+				position: relative
+				margin-top: 5px
+				font-weight: 300
+				color: #222222
+				font-size: 17px
+				&:before
+					content: ''
+					display: block
+					position: absolute
+					left: -32px
+					top: 3px
+					width: 21px
+					height: 20px
+					background: url('../icons/check_blue.png') center center/cover no-repeat
+			&_red
+				li
+					position: relative
+					margin-top: 5px
+					font-weight: 300
+					color: #222222
+					font-size: 17px
+					&:before
+						content: ''
+						display: block
+						position: absolute
+						left: -32px
+						top: 3px
+						width: 21px
+						height: 20px
+						background: url('../icons/check_red.png') center center/cover no-repeat
+		&_title
+			color: #1ca8c3
+			font-weight: 400
+			font-size: 22px
+			&_bot
+				color: #ff5656
+		&_bot
+			color: #1ca8c3
+			font-weight: 300
+			font-size: 17px
+			margin-top: 10px
+.world
+	height: 717px
+	padding: 49px 0
+	background: url('../img/world_bg.jpg') center center/cover no-repeat
+	&_btn
+		display: block
+		margin: 0 auto
+		width: 76px
+		height: 24px
+		background-color: #ffffff
+		color: #070716
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase	
+		border-color: #ffffff
+	&_header
+		line-height: 48px
+		text-align: center
+		margin-top: 22px
+		color: #ffffff
+		font-size: 38px
+		font-weight: 700
+		text-transform: uppercase
+	&_subheader
+		line-height: 21px
+		color: #ffffff
+		font-size: 17px
+		font-weight: 400
+		text-align: center
+		margin-top: 10px
+	&_link
+		display: block
+		text-align: center
+		margin-top: 475px
+		color: #1fbad6
+		font-size: 15px
+		font-weight: 400
+		text-transform: uppercase
+		&:hover
+			text-decoration: none
+			color: #1eacc7
+.footer
+	height: 158px
+	padding: 14px 0 39px 0
+	.container
+		
+	&_line
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_first
+		display: flex
+		justify-content: space-around
+		margin-top: 32px
+		a
+			color: #070716
+			font-family: Roboto
+			font-size: 15px
+			font-weight: 300
+			text-transform: uppercase
+			&:hover
+				color: #1eacc7
+				text-decoration: none
+	&_second
+		display: flex
+		justify-content: space-around
+		margin-top: 15px
+		a
+			color: #999999
+			text-transform: uppercase
+			font-size: 11px
+			font-weight: 300
+			&:hover
+				color: #1eacc7
+				text-decoration: none
+	&_link
+		display: block
+		text-align: center
+		color: #1fbad6
+		font-size: 11px
+		font-weight: 400
+		text-transform: uppercase
+		margin-top: 19px
+		&:hover
+				color: #1eacc7
+				text-decoration: none
+	&_logo
+		margin-left: 23px
+		margin-top: -90px
+	&_item
+		display: inline-block
+		width: 36px
+		height: 36px
+		background-color: #070716
+		border-radius: 100%
+		position: relative
+		img
+			background-color: #fff
+			position: absolute
+			left: 6px
+			top: 6px
+			cursor: pointer
+		&_right
+			float: right
+			cursor: pointer
+			img
+				margin-right: 23px
+
+.last
+	height: 8px
+	background-color: #070716
+
+.xs-vision
+	display: none	
+
+@media (max-width: 1200px)
+	header
+		nav
+			.menu
+				&_item
+					padding-right: 21px
+	.invite
+		h1
+			font-size: 55px
+	.features
+		&_img
+			vertical-align: top
+		p
+			width: 300px
+	.mobile
+		&_block
+			width: 300px
+	.footer
+		&_item
+			&_right
+				img
+					width: 235px
+@media (max-width: 991px)
+	header
+		nav
+			.menu
+				&_item
+					padding-right: 9px
+					a
+						font-size: 12px 
+		.sub-header
+			&_icon
+				width: 100%
+			&_text
+				font-size: 11px
+			&_number
+				p
+					span
+						font-size: 20px
+			&_btn
+				margin-top: 23px
+				width: 150px
+				height: 40px
+	.features
+		img
+			display: block
+			margin: 0 auto
+			margin-top: 30px
+		p
+			width: 300px
+			margin-top: 20px
+			margin-left: 50px
+	.invite
+		h1
+			font-size: 41px
+		&_header
+			font-size: 31px
+		&_text
+			font-size: 16px
+		&_btn
+			margin-top: 65px
+	.mobile
+		height: 1200px
+	.world
+		height: 500px
+		&_link
+			margin-top: 240px
+	.footer
+		&_item
+			&_right
+				img
+					width: 180px
+		&_second
+			a
+				font-size: 10px			
+@media (max-width: 767px)
+	header
+		nav
+			.menu
+				position: fixed
+				flex-direction: column
+				top: 0
+				left: -100%
+				width: 50%
+				height: 100vh
+				padding: 20px 15px
+				background-color: rgba(0,0,0, .8)
+				justify-content: center
+				align-items: center
+				transition: 0.6s all
+				&_active
+					left: 0
+				&_item
+					padding-right: 0
+					border: none
+					margin: 10px 0
+					a
+						font-size: 20px
+			.hamburger
+				display: block
+				position: absolute
+				right: 10px
+				top: 50%
+				transform: translateY(-50%)
+				width: 26px
+				height: 12px
+				span
+					display: block
+					height: 2px
+					width: 100%
+					background-color: #fff
+					margin-bottom: 2px
+					transition: 0.5s all
+				&_active
+					span
+						margin-bottom: -2px
+						&:nth-child(1)
+							transform: translateY(3px) rotate(-45deg)
+						&:nth-child(2)
+							display: none
+						&:nth-child(3)
+							transform: translateY(3px) rotate(45deg)
+		.sub-header
+			.no-vision
+				display: none
+			span
+				color: #ffffff
+				font-size: 18px
+				font-weight: 400
+				text-align: center
+				text-transform: uppercase
+				margin-top: 5px
+			.xs-vision
+				display: block
+			&_btn
+				display: block
+				margin: 0 auto
+				width: 180px
+				height: 30px
+				font-size: 15px
+				font-weight: 400
+				margin-top: 5px
+	.invite
+		height: 650px
+		h1
+			font-weight: 700
+			line-height: 70px
+			font-size: 62px
+		&_header
+			margin-top: 30px
+		&_text
+			display: none
+		&_btn
+			margin-top: 85px
+	.features
+		&_header
+			font-size: 27px
+		p
+			width: 400px
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 20px;
+	.mobile
+		height: 1070px
+		&_header
+			font-size: 31px
+		&_block
+			width: 250px
+			height: 250px
+			&_text
+				font-size: 20px
+	.choice
+		height: 400px
+		background: url('../img/second_bg.png') center center/cover no-repeat
+		&_header
+			font-size: 35px
+			color: #1eacc7
+		&_text
+			font-size: 15px
+			color: #1eacc7
+		&_par
+			margin-top: 130px
+	.footer
+		height: 150px
+		&_logo
+			display: none
+		&_first
+			a
+				font-size: 14px
+@media (max-width: 575px)
+	header
+		// height: 430px
+		nav
+			height: 30px
+			.menu
+				&_item
+					a
+						display: block
+						text-align: center
+						font-size: 17px
+		.sub-header
+			height: 60px
+			&_icon
+				width: 130px
+				height: 15px
+			&_text
+				display: none
+			.xs-vision
+				margin-top: 11px
+				height: 9px
+				font-size: 12px	
+			&_btn
+				margin-top: 9px
+				width: 110px
+				height: 22px
+				font-size: 10px
+	.invite
+		height: 400px
+		padding: 53px 0 35px 0
+		h1
+			font-size: 30px
+			margin-top: 53px
+			line-height: 35px
+		&_header
+			font-size: 20px
+		&_btn
+			width: 210px
+			height: 50px
+			margin-top: 40px
+			font-size: 16px
+	.features
+		padding: 22px 0
+		&_header
+			font-size: 16px
+			margin-top: 15px
+		p
+			width: 100%	
+	.mobile
+		height: 1850px
+		&_header
+			font-size: 16px
+		&_text
+			font-size: 14px
+			width: 260px
+			margin: 0 auto
+		&_block
+			width: 300px
+	.choice
+		height: 400px
+		background: url('../img/car_bg_mobile.png') center center/cover no-repeat
+		padding: 25px 0 33px 0
+		&_btn
+			width: 112px
+			height: 24px
+			border-width: 0
+		&_header
+			display: none
+		&_text
+			display: none
+		&_par
+			margin-top: 260px
+			color: #ffffff
+	.condition
+		height: 1120px
+		padding: 25px 0 20px 0
+		&_btn
+			border-width: 0
+		&_text
+			font-size: 16px
+			margin-top: 15px
+		&_block
+			margin-top: 26px
+			margin-bottom: 0
+			&_title
+				font-size: 16px
+			&_list
+				li
+					font-size: 14px
+			&_bot
+				font-size: 14px
+	.world
+		height: 360px
+		padding: 25px 0 30px 0
+		&_header
+			line-height: 0
+			font-size: 16px
+			margin-top: 20px
+			
+		&_subheader
+			line-height: 0
+			font-size: 14px
+			margin-top: 20px
+		&_link
+			margin-top: 216px
+
+
+
+		
