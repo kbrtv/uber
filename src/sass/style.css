@@ -10,6 +10,9 @@ header nav {
   height: 50px;
   background-color: #212121;
   padding-top: 10px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
 header nav .menu {
@@ -51,6 +54,7 @@ header .sub-header {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   width: 100%;
+  margin-top: 50px;
 }
 
 header .sub-header_logo {
@@ -108,7 +112,7 @@ header .sub-header_btn:hover {
 
 .invite {
   height: 750px;
-  padding: 140px 0 135px 0;
+  padding: 180px 0 135px 0;
   background: url("../img/main-bg.png") center center/cover no-repeat;
 }
 
@@ -891,6 +895,7 @@ header .sub-header_btn:hover {
   }
   header .sub-header {
     height: 60px;
+    margin-top: 20px;
   }
   header .sub-header_icon {
     width: 130px;
